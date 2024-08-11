@@ -1,3 +1,22 @@
 body {
-  background-color: aquamarine;
+  background-color: #646cffaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chepchat {
+  height: 90vh;
+  width: 1260px;
+  display: flex;
+  color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  .sidebar {
+    background-color: steelblue;
+    flex: 1;
+  }
+  .chatbox {
+    flex: 2;
+    background-color: lightblue;
+  }
 }
