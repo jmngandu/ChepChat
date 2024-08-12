@@ -7,8 +7,13 @@ function App() {
   return (
     <>
       <div className="chepchat">
-        <div className="sidebar">sidebar</div>
-        <div className="chatbox">chatbox</div>
+        <div className="sidebar">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quasi
+          minus maiores repudiandae sunt eius maxime molestiae numquam quae,
+          eveniet cum doloribus, officia reiciendis accusantium est possimus
+          tempore suscipit illo!
+        </div>
+        <div className="chatbox">lorem</div>
       </div>
     </>
   );

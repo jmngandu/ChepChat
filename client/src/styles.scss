@@ -1,22 +1,32 @@
 body {
-  background-color: #646cffaa;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: #f0f8ff;
+  width: 100%;
 }
 .chepchat {
   height: 90vh;
-  width: 1260px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  color: #fff;
+  color: #000;
   border-radius: 1rem;
   overflow: hidden;
+
   .sidebar {
     background-color: steelblue;
+    background-color: #fff1e6;
+    background-color: #fff9e3;
+    background-color: #f0f8ff;
+    background-color: #faf9f6;
+    background-color: #fbfcf8;
+    background-color: #fbf5df;
+    padding: 1rem;
     flex: 1;
   }
   .chatbox {
     flex: 2;
     background-color: lightblue;
+    background-color: #faf9f6;
+    padding: 1rem;
   }
 }
