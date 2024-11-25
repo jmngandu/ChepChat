@@ -8,6 +8,7 @@ import {
 } from "firebase/firestore";
 import "./styles.scss";
 import { useEffect } from "react";
+import Chatbox from "./components/chatbox/chat";
 
 function App() {
   let students = [];
@@ -40,7 +41,9 @@ function App() {
           <button onClick={addData}>add data</button>
           <button onClick={deleteData}>delete doc</button>
         </div>
-        <div className="chatbox">chepchat</div>
+        <div className="chatbox">
+          <Chatbox />
+        </div>
       </div>
     </>
   );
