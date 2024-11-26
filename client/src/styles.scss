@@ -1,6 +1,7 @@
 body {
-  background-color: #f0f8ff;
   width: 100%;
+  background-color: #e6f7ff;
+  background-color: #003366; //Midnight Blue
 }
 .chepchat {
   height: 90vh;
@@ -13,20 +14,21 @@ body {
   overflow: hidden;
 
   .sidebar {
-    background-color: steelblue;
-    background-color: #fff1e6;
-    background-color: #fff9e3;
-    background-color: #f0f8ff;
-    background-color: #faf9f6;
-    background-color: #fbfcf8;
-    background-color: #fbf5df;
+    background-color: #003366; //Midnight Blue
+    background-color: #87cefa; // Light Sky Blue
+    background-color: #6a5acd; // Slate Blue
+    background-color: #1e90ff; // Dodger Blue
+    background-color: #4682b4; // Steel Blue
+    background-color: #6495ed; // Cornflower Blue
+    background-color: #b0e0e6; // Soft Light Blue
+    background-color: #e6f7ff; //Soft Light Blue
+
     padding: 1rem;
     flex: 1;
   }
   .chatbox {
     flex: 2;
-    background-color: lightblue;
-    background-color: #faf9f6;
+    background-color: #f0f8ff;
     padding: 1rem;
   }
 }
